@@ -1,0 +1,16 @@
+[package]
+name = "bit_roles"
+version = "0.1.0"
+edition = "2021"
+authors = ["zignis <velociraptorm77@gmail.com>"]
+license = "MIT"
+description = "Granular role management based on bit flags"
+keywords = ["bit", "enum", "permissions", "roles", "macros"]
+documentation = "https://docs.rs/bit_roles"
+homepage = "https://github.com/zignis/bit_roles"
+repository = "https://github.com/zignis/bit_roles"
+readme = "../README.md"
+
+[dependencies]
+thiserror = "1.0.58"
+bit_roles_macros = { path = "../bit_roles_macros", version = "0.1.0" }

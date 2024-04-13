@@ -1,0 +1,8 @@
+[package]
+name = "bit_roles_tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bit_roles = { path = "../bit_roles" }
+trybuild = "1.0.91"

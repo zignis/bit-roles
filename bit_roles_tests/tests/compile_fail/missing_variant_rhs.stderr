@@ -1,0 +1,7 @@
+error: `One` in the `Role` enum must have a hard-coded discriminant value
+ --> tests/compile_fail/missing_variant_rhs.rs:3:17
+  |
+3 | #[derive(Debug, BitRole, Copy, Clone)]
+  |                 ^^^^^^^
+  |
+  = note: this error originates in the derive macro `BitRole` (in Nightly builds, run with -Z macro-backtrace for more info)

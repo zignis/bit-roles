@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "bit_roles",
+    "bit_roles_macros",
+    "bit_roles_tests"
+]

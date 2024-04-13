@@ -1,0 +1,12 @@
+# rust
+**/target/
+**/Cargo.lock
+
+# environment
+.env
+.env.production
+.DS_Store
+
+# IDE
+.idea/
+bit-roles.iml
