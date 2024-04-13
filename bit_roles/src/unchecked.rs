@@ -1,6 +1,6 @@
 use crate::{
     utils::{
-        is_validate_role,
+        is_valid_role,
         negate,
     },
     RoleError,
@@ -93,7 +93,7 @@ where
     fn validate_role(&self, role: RoleValue<T>) -> Result<usize, RoleError> {
         let mag: usize = role.into();
 
-        is_validate_role(mag)
+        is_valid_role(mag)
             .then_some(mag)
             .ok_or(RoleError::InvalidRole(mag))
     }

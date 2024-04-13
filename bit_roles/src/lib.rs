@@ -63,7 +63,7 @@ pub use checked::*;
 pub use error::RoleError;
 pub use role_value::RoleValue;
 pub use unchecked::*;
-pub use utils::is_validate_role;
+pub use utils::is_valid_role;
 
 /// The role variant trait. All role enums must implement this trait.
 pub trait RoleVariant: Into<usize> + Copy {}

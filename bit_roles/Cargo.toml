@@ -1,6 +1,6 @@
 [package]
 name = "bit_roles"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["zignis <velociraptorm77@gmail.com>"]
 license = "MIT"
@@ -13,4 +13,4 @@ readme = "../README.md"
 
 [dependencies]
 thiserror = "1.0.58"
-bit_roles_macros = { path = "../bit_roles_macros", version = "0.1.0" }
+bit_roles_macros = { path = "../bit_roles_macros", version = "0.2.0" }

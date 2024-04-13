@@ -1,5 +1,5 @@
 use crate::{
-    utils::is_validate_role,
+    utils::is_valid_role,
     RoleError,
     RoleVariant,
 };
@@ -70,7 +70,7 @@ where
     ///
     /// * `role` - The role variant.
     pub fn try_from_role(role: T) -> Result<Self, RoleError> {
-        is_validate_role(role.into())
+        is_valid_role(role.into())
             .then_some(RoleValue::Role(role))
             .ok_or(RoleError::InvalidRole(role.into()))
     }
@@ -126,7 +126,7 @@ where
     ///
     /// * `value` - The magnitude.
     pub fn try_from_usize(value: usize) -> Result<Self, RoleError> {
-        is_validate_role(value)
+        is_valid_role(value)
             .then_some(RoleValue::Raw(value))
             .ok_or(RoleError::InvalidRole(value))
     }
