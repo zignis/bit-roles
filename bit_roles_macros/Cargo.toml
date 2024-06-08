@@ -1,6 +1,6 @@
 [package]
 name = "bit_roles_macros"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
 authors = ["zignis <velociraptorm77@gmail.com>"]
 license = "MIT"
