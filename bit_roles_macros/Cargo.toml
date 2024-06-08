@@ -1,14 +1,14 @@
 [package]
 name = "bit_roles_macros"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["zignis <velociraptorm77@gmail.com>"]
 license = "MIT"
 description = "Granular role management based on bit flags"
 keywords = ["bit", "enum", "permissions", "roles", "macros"]
 documentation = "https://docs.rs/bit_roles"
-homepage = "https://github.com/zignis/bit_roles"
-repository = "https://github.com/zignis/bit_roles"
+homepage = "https://github.com/zignis/bit-roles"
+repository = "https://github.com/zignis/bit-roles"
 readme = "../README.md"
 
 [lib]
