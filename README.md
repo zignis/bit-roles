@@ -65,7 +65,7 @@ fn main() {
 Add `bit_roles` to your project:
 
 ```shell
-cargo add bit_rols
+cargo add bit_roles
 ```
 
 ## Usage
